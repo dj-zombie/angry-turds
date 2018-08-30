@@ -1,0 +1,17 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    title Angry Turds - Zombie Head Studios
+    link(rel='stylesheet', href='css/game.css', type='text/css')
+    script(src='js/lib/phaser/phaser.js')
+    script(src='js/game.js')
+
+  body
+    #game-container
+      #angry-turds
+    script.
+      window.onload = () => {
+      var game = new AngryTurds.Game();
+      };
+    script(src='//localhost:35729/livereload.js')

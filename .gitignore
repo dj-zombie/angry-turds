@@ -1,0 +1,5 @@
+.sass-cache
+.tscache
+build
+node_modules
+tscommand*.*
